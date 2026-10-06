@@ -21,6 +21,10 @@ public class Product {
         return name;
     }
 
+/*    when Commented out, I would notice that a field is missing from the JSON response
+      ,which could mean its getter method is missing
+*/
+
     public double getPrice() {
         return price;
     }
